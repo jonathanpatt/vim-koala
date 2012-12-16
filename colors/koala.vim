@@ -1,8 +1,10 @@
 " Vim color file
 " Original Maintainer:  Lars H. Nielsen (dengmao@gmail.com)
-" Last Change:  2010-07-23
+" Last Change:  2012-12-15
 "
-" Modified version of wombat for 256-color terminals by
+" Refined and restyled fork of wombat256mod by
+"   Jonathan Patt (jonathanpatt@gmail.com)
+" based on a modified version of wombat for 256-color terminals by
 "   David Liang (bmdavll@gmail.com)
 " based on version by
 "   Danila Bespalov (danila.bespalov@gmail.com)
@@ -16,7 +18,7 @@ if version > 580
     endif
 endif
 
-let colors_name = "wombat256mod"
+let colors_name = "koala"
 
 
 " General colors
