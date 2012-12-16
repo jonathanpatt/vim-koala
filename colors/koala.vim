@@ -46,10 +46,10 @@ hi PmenuSel     ctermfg=232     ctermbg=192                     guifg=#080808   
 endif
 
 " Diff highlighting
-hi DiffAdd                      ctermbg=17                                      guibg=#2a0d6a
-hi DiffDelete   ctermfg=234     ctermbg=60      cterm=none      guifg=#242424   guibg=#3e3969   gui=none
-hi DiffText                     ctermbg=53      cterm=none                      guibg=#73186e   gui=none
-hi DiffChange                   ctermbg=237                                     guibg=#382a37
+hi DiffAdd      ctermfg=bg      ctermbg=113     cterm=none      guifg=bg        guibg=#95e454   gui=none
+hi DiffDelete   ctermfg=bg      ctermbg=173     cterm=none      guifg=bg        guibg=#e5786d   gui=none
+hi DiffText     ctermfg=0       ctermbg=111     cterm=none      guifg=#000000   guibg=#88b8f6   gui=none
+hi DiffChange                   ctermbg=238                                     guibg=#444444
 
 "hi CursorIM
 "hi Directory
@@ -92,3 +92,5 @@ hi! link FoldColumn     Folded
 hi! link CursorColumn   CursorLine
 hi! link SpecialKey     NonText
 hi! link Todo           Search
+hi! link diffAdded      DiffAdd
+hi! link diffRemoved    DiffDelete
