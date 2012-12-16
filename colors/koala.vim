@@ -92,3 +92,5 @@ hi! link FoldColumn     Folded
 hi! link CursorColumn   CursorLine
 hi! link SpecialKey     NonText
 hi! link Todo           Search
+hi! link diffAdded      DiffAdd
+hi! link diffRemoved    DiffDelete
