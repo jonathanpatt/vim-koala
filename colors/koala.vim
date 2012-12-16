@@ -95,5 +95,3 @@ hi! link FoldColumn     Folded
 hi! link CursorColumn   CursorLine
 hi! link SpecialKey     NonText
 hi! link Todo           Search
-
-" vim:set ts=4 sw=4 noet:
