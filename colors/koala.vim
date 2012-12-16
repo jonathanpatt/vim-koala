@@ -21,7 +21,6 @@ endif
 
 let colors_name = "koala"
 
-
 " General colors
 hi Normal       ctermfg=252     ctermbg=0       cterm=none      guifg=#e3e0d7   guibg=#242424   gui=none
 hi Cursor       ctermfg=234     ctermbg=228     cterm=none      guifg=#242424   guibg=#eae788   gui=none
@@ -75,7 +74,6 @@ hi DiffChange                   ctermbg=237                                     
 "hi User9
 "hi WildMenu
 
-
 " Syntax highlighting
 hi Keyword      ctermfg=111     cterm=none      guifg=#88b8f6   gui=none
 hi Statement    ctermfg=111     cterm=none      guifg=#88b8f6   gui=none
@@ -88,7 +86,6 @@ hi Type         ctermfg=186     cterm=none      guifg=#d4d987   gui=none
 hi Special      ctermfg=229     cterm=none      guifg=#eadead   gui=none
 hi String       ctermfg=113     cterm=none      guifg=#95e454   gui=italic
 hi Comment      ctermfg=246     cterm=none      guifg=#9c998e   gui=italic
-
 
 " Links
 hi! link FoldColumn     Folded
