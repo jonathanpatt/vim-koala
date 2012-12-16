@@ -28,7 +28,7 @@ hi Visual       ctermfg=254     ctermbg=238     cterm=none      guifg=#e4e4e4   
 hi Search       ctermfg=0       ctermbg=226     cterm=none      guifg=#242424   guibg=#ffff00   gui=none
 hi Folded       ctermfg=103     ctermbg=237     cterm=none      guifg=#a0a8b0   guibg=#3a4046   gui=none
 hi Title        ctermfg=230                     cterm=bold      guifg=#ffffd7                   gui=bold
-hi StatusLine   ctermfg=230     ctermbg=238     cterm=none      guifg=#ffffd7   guibg=#444444   gui=italic
+hi StatusLine   ctermfg=230     ctermbg=238     cterm=none      guifg=#ffffd7   guibg=#444444   gui=none
 hi VertSplit    ctermfg=238     ctermbg=238     cterm=none      guifg=#444444   guibg=#444444   gui=none
 hi StatusLineNC ctermfg=241     ctermbg=238     cterm=none      guifg=#857b6f   guibg=#444444   gui=none
 hi LineNr       ctermfg=241     ctermbg=232     cterm=none      guifg=#857b6f   guibg=#080808   gui=none
