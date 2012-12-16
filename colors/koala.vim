@@ -1,6 +1,7 @@
 " Vim color file
+" Maintainer:           Jonathan Patt (jonathanpatt@gmail.com)
 " Original Maintainer:  Lars H. Nielsen (dengmao@gmail.com)
-" Last Change:  2012-12-15
+" Last Change:          2012-12-15
 "
 " Refined and restyled fork of wombat256mod by
 "   Jonathan Patt (jonathanpatt@gmail.com)
@@ -11,7 +12,7 @@
 
 set background=dark
 
-if version > 580
+if version > 590
     hi clear
     if exists("syntax_on")
         syntax reset
